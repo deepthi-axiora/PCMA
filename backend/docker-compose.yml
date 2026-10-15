@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: pcma-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: pcma_db
+      POSTGRES_USER: pcma_user
+      POSTGRES_PASSWORD: pcma_password
+    ports:
+        - "5433:5432"   
+    volumes:
+      - pcma_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  pcma_postgres_data:

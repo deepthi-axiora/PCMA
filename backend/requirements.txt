@@ -1,0 +1,32 @@
+# Core Web API Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-multipart>=0.0.12
+
+# Database & Migrations
+SQLAlchemy[asyncio]>=2.0.30
+aiosqlite>=0.20.0
+asyncpg>=0.29.0
+alembic>=1.13.0
+
+# Security, Auth & Cryptography
+cryptography>=43.0.0
+PyJWT>=2.9.0
+
+# HTTP Client
+httpx>=0.27.0
+
+# Speech-to-Text & Diarization Pipeline (Local AI)
+faster-whisper>=1.0.0
+pyannote.audio>=3.1.0
+torch>=2.4.0
+torchaudio>=2.4.0
+huggingface-hub>=0.24.0
+numpy>=1.26.0
+av>=12.0.0
+
+# Testing & Development
+pytest>=8.2.0
+pytest-asyncio>=0.23.0

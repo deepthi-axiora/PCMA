@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PCMA</string>
+    <string name="app_full_name">Personal Conversation Memory Assistant</string>
+    <string name="recording_notification_channel">Audio Recording Channel</string>
+    <string name="recording_notification_title">PCMA Recording Active</string>
+    <string name="recording_notification_desc">Recording conversation in background…</string>
+    <string name="reminders_notification_channel">PCMA Scheduled Reminders</string>
+</resources>

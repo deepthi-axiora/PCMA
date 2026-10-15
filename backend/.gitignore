@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+pcma.db*
+app.db*
+private_audio/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_temp/
+tmp_pytest/
+*.log
